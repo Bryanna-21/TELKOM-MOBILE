@@ -1,0 +1,65 @@
+# 🔒 Security - NEVER commit these
+.env
+.env.local
+.env.*.local
+*.env
+*.env.local
+.env.production
+.env.development
+
+# Node modules
+node_modules/
+npm-debug.*
+yarn-error.log
+yarn-debug.log*
+
+# Expo
+.expo/
+dist/
+web-build/
+.expo-shared/
+.expo-build-properties/
+
+# Native build outputs
+android/
+ios/
+*.apk
+*.ipa
+*.aab
+*.keystore
+*.jks
+*.p12
+*.p8
+
+# IDE and OS
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets and certificates
+*.key
+*.pem
+*.crt
+*.csr
+secrets/
+credentials/
+certificates/
+google-services.json
+GoogleService-Info.plist
+firebase.json
+
+# Testing
+coverage/
+.nyc_output/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
